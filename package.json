@@ -1,0 +1,25 @@
+{
+  "name": "cookie-of-appreciation",
+  "version": "1.0.0",
+  "description": "Gives the user a token of my appreciation in cookie form.",
+  "main": "cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsjustsoda/cookie-of-appreciation.git"
+  },
+  "keywords": [
+    "cookie",
+    "token",
+    "appreciation",
+    "badjoke"
+  ],
+  "author": "John Fresco",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/itsjustsoda/cookie-of-appreciation/issues"
+  },
+  "homepage": "https://github.com/itsjustsoda/cookie-of-appreciation"
+}

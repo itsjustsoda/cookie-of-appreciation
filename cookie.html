@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <!-- Colors from http://www.colourlovers.com/palette/2767765/Im_a_BookWorm -->
+    <style>
+      body {
+        background: #BFCDB4;
+        font-family: 'Permanent Marker';
+        font-weight: normal;
+      }
+
+      h1 {
+        padding: 1rem;
+        margin: 2rem;
+
+        font-size: 4rem;
+        font-weight: normal;
+        color: #F7E5BF;
+
+        line-height: 1.0;
+
+        text-align: center;
+        text-shadow: 3px 3px 0 rgba(125,93,78,0.75);
+
+      }
+
+      .cookie-base {
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 5rem;
+        margin: 2rem auto;
+
+        height: 24rem;
+        width: 24rem;
+
+        background-color: #EAD2A4;
+        box-shadow: inset -7px -7px rgba(125,93,78,0.75);
+
+
+        border-radius: 24rem;
+
+        word-break: break-all;
+        word-wrap: break-word;
+      }
+
+      .chip {
+        position: absolute;
+        background-color: #7D5D4E;
+
+        height: 3rem;
+        width: 3rem;
+
+        border-radius: 2rem;
+        box-shadow: inset -6px -6px rgba(0,0,0,0.25);
+
+        z-index: 1;
+      }
+
+      .one {
+        top: 6rem;
+        left: 10rem;
+      }
+
+      .two {
+        top: 7rem;
+        left: 20rem;
+
+        height: 4rem;
+        width: 4rem;
+
+        border-radius: 2rem;
+      }
+
+      .three {
+        top: 28rem;
+        left: 20rem;
+
+        height: 2rem;
+        width: 2rem;
+
+        border-radius: 2rem;
+      }
+
+      .four {
+        top: 21rem;
+        left: 6rem;
+
+        height: 7rem;
+        width: 7rem;
+
+        border-radius: 8rem;
+      }
+
+      p {
+        background-color: rgba(247,229,191, 0.9);
+        color: #7D5D4E;
+
+        padding: 2rem;
+        font-size: 1.5rem;
+
+        border-radius: 1rem;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <article vocab='https://schema.org' typeof='Thing'>
+      <meta property='name' content='Appreciation Cookie' />
+      <h1>Enjoy your cookie!</h1>
+      <div class='cookie-base'>
+        <div class='chip one'></div>
+        <div class='chip two'></div>
+        <div class='chip three'></div>
+        <div class='chip four'></div>
+        <p property='name'>
+          <script>
+            document.write(document.cookie);
+          </script>
+        </p>
+      </div>
+    </article>
+  </body>
+</html>
