@@ -6,9 +6,20 @@
     <!-- Colors from http://www.colourlovers.com/palette/2767765/Im_a_BookWorm -->
     <style>
       body {
+        margin: 0;
+        padding : 0;
+
         background: #BFCDB4;
         font-family: 'Permanent Marker';
         font-weight: normal;
+
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      article {
+        flex: 1;
       }
 
       h1 {
@@ -107,6 +118,22 @@
         border-radius: 1rem;
         z-index: 2;
       }
+
+      footer {
+        padding: 0;
+        margin: 0;
+      }
+
+      footer p {
+        font-size: 1rem;
+        margin: 0;
+        border-radius: 0;
+
+        background: #EFB198;
+        color: #F7E5BF;
+        text-shadow: 1px 1px 0 rgba(125,93,78,0.75);
+      }
+
     </style>
   </head>
   <body>
@@ -125,5 +152,11 @@
         </p>
       </div>
     </article>
+    <footer>
+      <p>
+        For all you EU people: This site uses cookies. If you didn't want a cookie,
+        I'm not sure why you came here.
+      </p>
+    </footer>
   </body>
 </html>
